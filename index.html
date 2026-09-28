@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e0f14">
+  <meta name="description" content="CCA-F study tutor: lessons, listen mode, practice, and readiness tracking.">
+  <title>Claude Cert Tutor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <p class="eyebrow">CCA-F</p>
+      <h1 class="brand">Claude Cert Tutor</h1>
+    </div>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <nav class="nav" aria-label="Primary">
+    <button type="button" data-action="nav" data-view="home" aria-label="Home"><span class="ico">⌂</span><span>Home</span></button>
+    <button type="button" data-action="nav" data-view="learn" aria-label="Learn"><span class="ico">▤</span><span>Learn</span></button>
+    <button type="button" data-action="nav" data-view="listen" aria-label="Listen"><span class="ico">♫</span><span>Listen</span></button>
+    <button type="button" data-action="nav" data-view="practice" aria-label="Practice"><span class="ico">?</span><span>Practice</span></button>
+    <button type="button" data-action="nav" data-view="progress" aria-label="Progress"><span class="ico">▥</span><span>Progress</span></button>
+    <button type="button" data-action="nav" data-view="score" aria-label="Score"><span class="ico">◉</span><span>Score</span></button>
+    <button type="button" data-action="nav" data-view="tutor" aria-label="Tutor"><span class="ico">✦</span><span>Tutor</span></button>
+    <button type="button" data-action="nav" data-view="settings" aria-label="Settings"><span class="ico">⚙</span><span>Settings</span></button>
+  </nav>
+  <script src="data/lessons.js"></script>
+  <script src="data/questionbank.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/tutor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
